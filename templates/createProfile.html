@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UniLinker | Create Profile</title>
+  </head>
+  <body>
+    <form action="" method="post">
+        {% csrf_token %}
+      <div class="inputgrp">
+        <div class="logo"><img src="" alt="Name" /></div>
+        <input type="text" placeholder="Name" name="name" />
+      </div>
+      <div class="inputgrp">
+        <div class="logo"><img src="" alt="Email" /></div>
+        <input type="text" placeholder="Email" name="email" />
+      </div>
+      <div class="inputgrp">
+        <div class="logo"><img src="" alt="Phone Number" /></div>
+        <input type="text" placeholder="Phone Number" name="phoneNumber" />
+      </div>
+      <div class="inputgrp">
+        <div class="logo"><img src="" alt="LinkedIn" /></div>
+        <input type="text" placeholder="Linked In" name="linkedIn" />
+      </div>
+      <div class="inputgrp">
+        <div class="logo"><img src="" alt="GitHub" /></div>
+        <input type="text" placeholder="GitHub" name="github" />
+      </div>
+      <!-- <div class="inputgrp">
+        <div class="logo"><img src="" alt="Resume Doc/Pdf" /></div>
+        <input type="text" placeholder="Resume Doc/Pdf" />
+      </div> -->
+      <div class="inputgrp">
+        <div class="logo"><img src="" alt="Resume" /></div>
+        <input type="file" placeholder="Resume" name="resume" />
+      </div>
+      <div class="inputgrp">
+        <div class="logo"><img src="" alt="Instagram" /></div>
+        <input type="text" placeholder="Instagram" name="instagram" />
+      </div>
+      <div class="inputgrp">
+        <div class="logo"><img src="" alt="Facebook" /></div>
+        <input type="text" placeholder="Facebook" name="facebook" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
